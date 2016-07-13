@@ -1,7 +1,7 @@
 # Recoleccion-Basura
 API para el servicio de Limpia Pública del Municipio de Xalapa, Veracruz.
 
-Proyecto hospedado por Codeando Xalapa, realizado y administrado por el Municipio de Xalapa.
+Proyecto hospedado por Codeando Xalapa; realizado y administrado por el Municipio de Xalapa.
 
 ---
 Comentarios, administración y solicitudes a: <br />

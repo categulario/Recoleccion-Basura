@@ -62,7 +62,7 @@ Donde:
 
 **Obtener el resumen de los viajes de un grupo de vehículos en un periodo de fecha dado**
 
-	GET /api/v1/group/{id}/track/summary?from={from}& to={to}
+	GET /api/v1/group/{id}/track/summary?from={from}&to={to}
 
 Donde:
 `{id}` Representa el campo id de un grupo de vehículos.

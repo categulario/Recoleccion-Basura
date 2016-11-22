@@ -16,7 +16,7 @@ Accesos para el API de camiones de basura en el municipio de Xalapa
 
 **Obtener la última ubicación conocida de un grupo de vehículos**
 
-	GET /api/v1/group/{id}/ultimasPosicionesVehiculos
+	GET /api/v1/group/{id}/location
 
 Donde: 
 `{id}` Representa el campo Id de un grupo de vehículos.
@@ -30,7 +30,7 @@ Donde:
 
 **Obtener la última ubicación conocida de un vehículo**
 
-	GET /api/v1/bus/{id}/ultimaPosicionVehiculo
+	GET /api/v1/bus/{id}/location
 
 Donde:
 `{id}` Representa el campo Id de un vehículo.

@@ -20,7 +20,7 @@ Route::group(['middleware' => ['web','cors']], function () {
 	Route::group(['prefix' => 'v1'], function () {
 		Route::get('group/', 'GruposVehiculoController@index');
 
-		Route::get('group/{grupoId}/position', 
+		Route::get('group/{grupoId}/location', 
 			'UltimasPosicionesVehiculosController@index')->where(array('grupoId' => '[a-zA-Z0-9\-]+'));
 
 		Route::get('group/{grupoId}/bus',
@@ -29,7 +29,7 @@ Route::group(['middleware' => ['web','cors']], function () {
 		Route::get('group/{grupoId}/track/summary',
 			'ResumenController@index')->where(array('grupoId' => '[a-zA-Z0-9\-]+'));
 
-		Route::get('bus/{vehiculoId}/position',
+		Route::get('bus/{vehiculoId}/location',
 			'UltimaPosicionVehiculoController@index')->where(array('vehiculoId' => '[a-zA-Z0-9\-]+'));
 
 		Route::get('bus/{vehiculoId}/track', 
